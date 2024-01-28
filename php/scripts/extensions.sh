@@ -18,6 +18,8 @@ if [[ $PHP_VERSION == "8.0" ]]; then
     pgsql \
     soap \
     xsl \
+    sockets \
+    mongodb \
     zip
     "
 else
@@ -37,6 +39,8 @@ else
     soap \
     xmlrpc \
     xsl \
+    sockets \
+    mongodb \
     zip
     "
 fi
